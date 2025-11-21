@@ -1,6 +1,7 @@
 # Pico-ID
 ## Repeater ID / Repeating MP3 player for Ham / GMRS / Commercial Radio
 This project allows you to take a raspberry pi pico and create an affordable automatic ID device for repeaters.
+![image](.images/pico.jpg)
 ## Features
 - CW mode allows pre-set text to be converted to a CW ID
 - MP3 mode allows the user to upload a mono < 64Kbps mp3 file to be played
@@ -27,9 +28,11 @@ Download and clone this repository and modify the code.py file to set it up how 
 6. Select `CircuitPython (Generic)` and select the COM port of your Pi Pico, or choose `Try to detect port automatically`.
 7. Click `View -> Files` and browse to the downloaded and extracted contents of this repository.
 8. Right click the "alphabet" folder and click `Upload to /` to upload the folder to the pi
+
 ![alt text](.images/image.png)
 9. Right click "code.py" and click `Upload to `/`
 10. You should now see the alphabet folder and code.py in the CirtcuitPython tab
+
 ![alt text](.images/image-1.png)
 11. Select the console. Press CTRL+C to cancel any currently running scripts, and press Ctrl+D to run a `soft reboot` to test it (also useful after changing settings to test)
 
