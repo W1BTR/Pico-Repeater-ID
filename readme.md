@@ -36,3 +36,5 @@ Download and clone this repository and modify the code.py file to set it up how 
 ![alt text](.images/image-1.png)
 11. Select the console. Press CTRL+C to cancel any currently running scripts, and press Ctrl+D to run a `soft reboot` to test it (also useful after changing settings to test)
 
+
+Code is based on this project https://learn.adafruit.com/mp3-playback-rp2040/pico-mp3
